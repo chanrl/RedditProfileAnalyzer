@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Reddit Profile Analyzer</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href='/static/css/style.css' />
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+
+        <nav class="navbar navbar-expand navbar-light bg-light">
+            <div class="nav navbar-nav">
+                <!-- <a class="nav-item nav-link active" href="">Home <span class="sr-only">(current)</span></a> -->
+                <a class="nav-item nav-link" href="/">Home</a>
+                <a class="nav-item nav-link" href="about">About</a>
+                <a class="nav-item nav-link" href="basic">Basic Profile</a>
+                <a class="nav-item nav-link" href="advanced">Advanced Profile</a>
+                <a class="nav-item nav-link" href="toxic-count">Toxic Comments Count</a>
+                <a class="nav-item nav-link" href="top-3">Top 3 Toxic Comments</a>
+                <a class="nav-item nav-link" href="topic">Comment Topics</a>
+            </div>
+        </nav>
+
+        <br><h1>Redditor Profile Results</h1>
+        <br><body>{{user}}'s Scammer Probability: {{scammer_probability}}</body></br></br>
+
+            <body>
+            {% for table in tables %}
+                        <!-- {{titles[loop.index]}} -->
+                        {{ table|safe }}
+            {% endfor %}
+            </body>
+
+            <div class="chart" id="bargraph">
+              <script>
+                  var graphs = {{plot | safe}};
+                  Plotly.plot('bargraph',graphs,{});
+              </script>
+            </div>
+
+            <div class="chart" id="bargraph2">
+              <script>
+                  var graphs = {{plot2 | safe}};
+                  Plotly.plot('bargraph2',graphs,{});
+              </script>
+            </div>
+
+            <div class="chart" id="bargraph3">
+              <script>
+                  var graphs = {{plot3 | safe}};
+                  Plotly.plot('bargraph3',graphs,{});
+              </script>
+            </div>
+
+    </div>
+  </body>
+  
+</html>

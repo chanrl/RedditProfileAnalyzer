@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Reddit Profile Analyzer</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href='/static/css/style.css' />
+  
+  </head>
+  <body>
+
+    <div class="container">
+
+        <nav class="navbar navbar-expand navbar-light bg-light">
+            <div class="nav navbar-nav">
+                <!-- <a class="nav-item nav-link active" href="">Home <span class="sr-only">(current)</span></a> -->
+                <a class="nav-item nav-link" href="/">Home</a>
+                <a class="nav-item nav-link" href="about">About</a>
+                <a class="nav-item nav-link" href="basic">Basic Profile</a>
+                <a class="nav-item nav-link" href="advanced">Advanced Profile</a>
+                <a class="nav-item nav-link" href="toxic-count">Toxic Comments Count</a>
+                <a class="nav-item nav-link" href="top-3">Top 3 Toxic Comments</a>
+                <a class="nav-item nav-link" href="topic">Comment Topics</a>
+            </div>
+        </nav>
+
+        <br><h1>Welcome to the Reddit Profile Analyzer!</h1><br /><br />
+              <p>Scammer probability is predicted using an ensemble model of Random Forest, XGBoost, LightGBM, and Multinomial Naive Bayes</p>
+              <p>Comment sentiment is classified using NLTK's VADER Sentiment Intensity Analyzer</p>
+              <p>Comment toxicity is classified using a recurrent neural network trained on a <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge">Kaggle competition dataset</a></p>
+              <p>Comment topics are identified using Latent Dirichlet allocation (LDA).</p><br /><br /><br />
+              <p><a href="http://www.github.com/chanrl">GitHub</a></p>
+              <p><a href="http://www.linkedin.com/in/chanrl">LinkedIn</a></p>
+              <p><a href="mailto: richard129chan@gmail.com">richard129chan@gmail.com</a></p>
+    </div>
+
+  </body>
+</html>
