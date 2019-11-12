@@ -24,8 +24,8 @@ For my ensemble method used to predict scammers, training and validation was don
 
 1. Get Raw Data
 2. Preprocess comment history
-  * Perform stemming and lemmatization
-  * Tokenize comments and pad sequences
+    * Perform stemming and lemmatization
+    * Tokenize comments and pad sequences
 3. Pass processed data into ensemble model (Random Forest, LightGBM, XGBoost) for scammer probability prediction
 4. Output data and results on Flask Web App
 
