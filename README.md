@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Reddit is one of my go to spots for buying and selling used goods, especially when you're looking for something specific. And it might be scary exchanging cash or goods with an online stranger when you don't know anything about them, especially when there are people that are actively trying to scam you.
+Reddit is one of my go to spots for buying and selling used goods, especially when you're looking for something specific. It might be nerve-wracking exchanging cash or goods with an online stranger when you don't know anything about them, especially when there are people that are actively trying to scam you.
 
 This tool will assist with creating a quick profile of the user you are interacting with as well as give you a probability of them being a scammer to help you make a decision if you want to exchange goods, services, or currency with this user.
 
