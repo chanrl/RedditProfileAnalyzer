@@ -20,7 +20,7 @@ For my ensemble method used to predict scammers, training and validation was don
 | Recurrent Neural Network | Categorize comments based on their toxicity type, trained on a [Kaggle dataset](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge) | 
 | Gensim Latent Dirichlet Allocation | Topic Modeling |
 
-## Pipeline
+## Flask Pipeline
 
 1. Get Raw Data
 2. Preprocess comment history
