@@ -33,3 +33,12 @@ For my ensemble method used to predict scammers, I had to feature engineer some 
 
 A demo web app is available for public use [here](http://3.133.79.156/) from 9:30 AM - 6:00 PM PST
 
+## Files to download
+
+If you would like to run this locally, the ensemble classifier and toxicity classifer would need to be downloaded.
+
+| Model      | Requirements |
+|------------|-----|
+|**[Toxicity Classifier](https://reddit-scammer-detector.s3-us-west-1.amazonaws.com/my_model.h5) | Tensorflow 2.0.0 |
+|**[Ensemble Classifier](https://reddit-scammer-detector.s3-us-west-1.amazonaws.com/eclf.pkl) | sklearn module |
+
