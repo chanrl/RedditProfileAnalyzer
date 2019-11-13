@@ -14,7 +14,7 @@ The profile analyzer can also be used as a public relations tool to help clean u
 
 So on creating the dataset for exploratory data analysis and training, there isn't a database with labeled scammers and non-scammers with corresponding data on them, so I had to synthesize one. I start by using the [universal scammer list](universalscammerlist.com), which is a collaboration between 60 subreddits on reporting and listing scammers on Reddit. I scrape all the listed banned users there for my scammer group, and then I scrape active users from the 60 subreddits participating in the USL as my non-scammer group.
 
-For my ensemble method used to predict scammers, training and validation was done with said dataset. Additionally, I had to feature engineer some items using the following tools: 
+For my ensemble method used to predict scammers, training and validation was done with said dataset. More information can be found in this [repo](https://github.com/chanrl/RedditScammerDetector). Additionally, I had to feature engineer some items using the following tools: 
 
 | Technology      | Use |
 |------------|-------------|
