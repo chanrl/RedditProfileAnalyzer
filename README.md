@@ -31,14 +31,14 @@ For my ensemble method used to predict scammers, training and validation was don
 3. Pass processed data into ensemble model (Random Forest, LightGBM, XGBoost) for scammer probability prediction
 4. Output data and results on Flask Web App
 
-![pipeline](src/pipeline.jpg)
+![pipeline](src/pipe.jpg)
 
 ## Web App
 
 A demo web app is available for public use [here](http://3.133.79.156/) from 9:30 AM - 6:00 PM PST
 
-![toxic](src/toxic.jpg)
-![topic](src/topic.jpg)
+![toxic](src/tox.jpg)
+![topic](src/top.jpg)
 
 ## Files to download
 
