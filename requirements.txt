@@ -1,6 +1,6 @@
 python==3.6.8
-requests
-praw
+request
+praw==6.4.0
 pandas
 flask
 joblib
