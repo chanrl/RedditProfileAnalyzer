@@ -35,7 +35,7 @@ For my ensemble method used to predict scammers, training and validation was don
 
 ## Web App
 
-A demo web app is available for public use [here](http://3.133.79.156/) from 9:30 AM - 6:00 PM PST
+A demo web app is available for public use [here](http://3.133.79.156/)
 
 ![toxic](src/tox.jpg)
 ![topic](src/top.jpg)
