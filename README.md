@@ -35,6 +35,8 @@ For my ensemble method used to predict scammers, training and validation was don
 
 ## Web App
 
+Web App can be demoed upon request. Contact me through email <richard129chan@gmail.com>!
+
 ![toxic](src/tox.jpg)
 ![topic](src/top.jpg)
 
